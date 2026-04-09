@@ -12,7 +12,7 @@ This lab has an unprotected admin panel. Solve the lab by deleting the user carl
 
 - Start command
 
-![Command start](ю..images/unprotected_admin_functionality_recon_1.jpg)
+![Command start](..images/unprotected_admin_functionality_recon_1.jpg)
 
 - Result
 
@@ -20,6 +20,9 @@ This lab has an unprotected admin panel. Solve the lab by deleting the user carl
 
 ## 3. Exploitation Step-by-Step
 1. After finding robots.txt, I opened the administrator-panel directory
+
 ![Admin-panel directionary](../images/unprotected_admin_functionality_recon_3.jpg)
+
 2. I deleted the user carlos
+
 ![Admin-panel delete user](../images/unprotected_admin_functionality_recon_final.jpg)
