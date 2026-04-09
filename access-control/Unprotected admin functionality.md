@@ -12,7 +12,7 @@ This lab has an unprotected admin panel. Solve the lab by deleting the user carl
 
 - Start command
 
-![Command start](..images/unprotected_admin_functionality_recon_1.jpg)
+![Command start](../images/unprotected_admin_functionality_recon_1.jpg)
 
 - Result
 
