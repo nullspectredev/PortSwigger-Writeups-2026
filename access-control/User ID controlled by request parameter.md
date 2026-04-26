@@ -14,7 +14,7 @@ You can log in to your own account using the following credentials: wiener:peter
 
 ## 2. Reconnaissance / Initial Analysis
 
-- I opened the page and researched it. I read the lab description and analyzed the requests in Burp Suite. I logged in to the page, but I found nothing that could contain the API key.
+- I opened the page and researched it. I read the lab description and analyzed the requests in Burp Suite. I logged in to the page, but I found nothing that could contain the API key
 
 ![I analyzed burpsuite](../images/user_id_controlled_by_request_parameter_1.jpg)
 
