@@ -12,13 +12,13 @@ The database contains a different table called users, with columns called userna
 
 ## 2. Reconnaissance / Initial Analysis
 
-- I opened the page and researched it. I read the lab description and searched for the parameter "trackId". Then I pasted "'", and I understood that the lab has an SQL injection vulnerability
+- I opened the page and analyzed it. I read the lab description and looked for the "trackingId" parameter. Then I pasted "'", and I understood that the lab has an SQL injection vulnerability
 
 ![I found parameter](../images/visible_error_based_sql_injection_recon.jpg)
 
 ## 3. Exploitation Step-by-Step
 
-1. I decided to try sending "AND (SELECT 1)" and saw this:
+1. I decided to try sending "AND (SELECT 1)" and observed this:
 
 ![Need boolean type](../images/visible_error_based_sql_injection_need_boolean_type.jpg)
 
@@ -26,22 +26,22 @@ The database contains a different table called users, with columns called userna
 
 ![Convert Boolean Type](../images/visible_error_based_sql_injection_convert_to_boolean_type.jpg)
 
-3. I decided to add CAST, and I got the username and password fields and the table name from the lab description. I received an error because there were too many characters
+3. Next, I tried adding CAST, and I obtained the username and password fields, as well as the table name from the lab description. However, I received an error because there were too many characters
 
 ![Many characters](../images/visible_error_based_sql_injection_many_chars.jpg)
 
-4. I fixed it by deleting the cookie (MySQL error messages are limited to 32 characters)
+4. I fixed this by deleting the cookie (MySQL error messages are limited to 32 characters)
 
 ![Many strings](../images/visible_error_based_sql_injection_many_strings.jpg)
 
-5. Then I fixed it using LIMIT 1
+5. Then I resolved the issue by using LIMIT 1
 
 ![Return username](../images/visible_error_based_sql_injection_return_username.jpg)
 
-6. I got the password by changing the field from username to password
+6. Next, I obtained the password by changing the field from username to password
 
 ![Return password](../images/visible_error_based_sql_injection_return_password.jpg)
 
-7. Then I sent these credentials to the login page and logged in
+7. Finally, I sent these credentials to the login page and logged in
 
 ![Completed this lab](../images/visible_error_based_sql_injection_final.jpg)
