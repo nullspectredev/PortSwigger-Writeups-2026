@@ -1,7 +1,7 @@
 # Lab: Blind SQL injection with time delays
 
-**Difficulty:** Practitioner
-**Category:** SQL Injection
+**Difficulty:** Practitioner<br>
+**Category:** SQL Injection<br>
 **Link:** https://portswigger.net/web-security/sql-injection/blind/lab-time-delays
 
 ## 1. Lab Description

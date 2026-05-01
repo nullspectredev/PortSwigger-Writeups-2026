@@ -1,7 +1,7 @@
 # Lab: User role controlled by request parameter
 
-**Difficulty:** Apprentice  
-**Category:** Access Control  
+**Difficulty:** Apprentice<br>
+**Category:** Access Control<br>
 **Link:** https://portswigger.net/web-security/access-control/lab-user-role-controlled-by-request-parameter
 
 ## 1. Lab Description

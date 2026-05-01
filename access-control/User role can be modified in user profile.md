@@ -1,7 +1,7 @@
 # Lab: User role can be modified in user profile
 
-**Difficulty:** Apprentice
-**Category:** Access Control
+**Difficulty:** Apprentice<br>
+**Category:** Access Control<br>
 **Link:** https://portswigger.net/web-security/access-control/lab-user-role-can-be-modified-in-user-profile
 
 ## 1. Lab Description

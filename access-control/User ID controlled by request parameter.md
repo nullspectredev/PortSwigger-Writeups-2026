@@ -1,7 +1,7 @@
 # Lab: User ID controlled by request parameter
 
-**Difficulty:** Apprentice
-**Category:** Broken Access Control
+**Difficulty:** Apprentice<br>
+**Category:** Broken Access Control<br>
 **Link:** https://portswigger.net/web-security/access-control/lab-user-id-controlled-by-request-parameter
 
 ## 1. Lab Description

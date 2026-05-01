@@ -1,7 +1,7 @@
 # Lab: Unprotected admin functionality
 
-**Difficulty:** Apprentice  
-**Category:** Access Control
+**Difficulty:** Apprentice<br>
+**Category:** Access Control<br>
 **Link:** https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality
 
 ## 1. Lab Description

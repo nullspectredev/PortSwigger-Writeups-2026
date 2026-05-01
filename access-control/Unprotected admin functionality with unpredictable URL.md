@@ -1,7 +1,7 @@
 # Lab: Unprotected admin functionality with unpredictable URL
 
-**Difficulty:** Apprentice  
-**Category:** Access Control
+**Difficulty:** Apprentice<br>
+**Category:** Access Control<br>
 **Link:** https://portswigger.net/web-security/access-control/lab-unprotected-admin-functionality-with-unpredictable-url
 
 ## 1. Lab Description

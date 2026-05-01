@@ -1,7 +1,7 @@
 # Lab: Visible error-based SQL injection
 
-**Difficulty:** Practitioner
-**Category:** SQL Injection
+**Difficulty:** Practitioner<br>
+**Category:** SQL Injection<br>
 **Link:** https://portswigger.net/web-security/sql-injection/blind/lab-sql-injection-visible-error-based
 
 ## 1. Lab Description
